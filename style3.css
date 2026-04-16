@@ -1,0 +1,72 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* barra azul */
+
+.header{
+background:#4fa3bf;
+padding:15px 40px;
+}
+
+.container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+width:70px;
+}
+
+/* menu derecha */
+
+.menu a{
+text-decoration:none;
+color:black;
+margin-left:30px;
+font-size:18px;
+font-weight:bold;
+}
+
+.menu a:hover{
+color:white;
+}
+
+/* seccion servicios */
+
+.seccion-servicios{
+background:#f2f2f2;
+padding:60px 20px;
+text-align:center;
+}
+
+/* contenedor centrado */
+
+.servicios{
+display:flex;
+justify-content:center;   /* esto los centra */
+align-items:center;
+gap:80px;
+max-width:900px;          /* evita que se estiren demasiado */
+margin:auto;              /* centra todo el bloque */
+}
+
+/* cada servicio */
+
+.servicio{
+width:250px;
+text-align:center;
+}
+
+.servicio img{
+width:45px;
+margin-bottom:15px;
+}
+
+.servicio p{
+color:#555;
+font-size:15px;
+line-height:1.5;
+}
